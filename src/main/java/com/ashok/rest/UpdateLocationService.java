@@ -1,13 +1,12 @@
 package com.ashok.rest;
 
-import java.sql.Timestamp;
-
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Response;
-import com.ashok.location.strore.DataStore;
-import com.ashok.location.strore.CacheManager;
+
+import com.ashok.location.store.CacheManager;
+import com.ashok.location.store.DataStore;
 
 @Path("/updateLocation")
 public class UpdateLocationService {

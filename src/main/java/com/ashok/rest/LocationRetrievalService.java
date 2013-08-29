@@ -7,8 +7,8 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Response;
 
-import com.ashok.location.strore.CacheManager;
-import com.ashok.location.strore.DataStore;
+import com.ashok.location.store.CacheManager;
+import com.ashok.location.store.DataStore;
 
 /**
  * 

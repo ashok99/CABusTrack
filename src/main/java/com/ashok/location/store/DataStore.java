@@ -1,8 +1,5 @@
-package com.ashok.location.strore;
+package com.ashok.location.store;
 
-import java.sql.Timestamp;
-
-import com.ashok.location.strore.DataStore;
 
 
 public class DataStore {
